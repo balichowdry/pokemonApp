@@ -52,4 +52,8 @@ RTK Query: Handles data fetching and caching for the Pokemon API endpoints.
  <br />   - pokemonApi.test.ts
 
 
+![Screenshot 2024-05-30 at 10 16 50 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/9006f1ec-551a-4f90-9a81-61a5d4eb5d14)
 
+
+
+![Screenshot 2024-05-30 at 10 18 39 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/01af5305-07d5-4a2e-b7a4-7f697a1013c1)

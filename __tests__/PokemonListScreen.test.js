@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
 import PokemonList from '../src/component/PokemonList';
-import { useGetPokemonListQuery } from '../src/api/pokemonApi';
+import { useGetPokemonListQuery } from '../src/service/pokemonApi';
 
 // Mock the API hook
 jest.mock('../src/api/pokemonApi', () => ({

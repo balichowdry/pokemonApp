@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { pokemonApi } from '../api/pokemonApi';
+import { pokemonApi } from '../service/pokemonApi';
 import { persistReducer, persistStore } from 'redux-persist';
 import storage from '@react-native-async-storage/async-storage';
 import { combineReducers } from 'redux';

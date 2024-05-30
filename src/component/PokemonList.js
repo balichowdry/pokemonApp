@@ -6,7 +6,7 @@ import {
   Text,
   TouchableOpacity,
 } from 'react-native';
-import { useGetPokemonListQuery } from '../api/pokemonApi';
+import { useGetPokemonListQuery } from '../service/pokemonApi';
 
 const PokemonList = ({ navigation }) => {
   const { data, error, isLoading } = useGetPokemonListQuery();

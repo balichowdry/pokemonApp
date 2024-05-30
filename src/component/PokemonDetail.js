@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import { useGetPokemonByNameQuery } from '../api/pokemonApi';
+import { useGetPokemonByNameQuery } from '../service/pokemonApi';
 
 const PokemonDetail = ({ route }) => {
   const { name } = route.params;

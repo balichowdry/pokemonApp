@@ -58,8 +58,8 @@ But in this project, the react testing library version has old libraries in an o
 **npm install --legacy-peer-deps** <br />
 **npm expo start** // Because I have the latest expo CLI which supports NPX, Install Expo CLI if needed
 
-** Press a for Android ** <br />
-** Press i for iOS ** <br />
+**Press a for Android** <br />
+**Press i for iOS** <br />
 
 <br />
 Configure API Base URL <br />

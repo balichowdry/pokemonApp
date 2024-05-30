@@ -61,6 +61,10 @@ But in this project, the react testing library version has old libraries in an o
 **Press a for Android** <br />
 **Press i for iOS** <br />
 
+RUN TEST
+**npm test**
+<img width="771" alt="Screenshot 2024-05-30 at 12 14 45 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/80f68444-8f2a-4f88-b397-c85ca5aaf046">
+
 <br />
 Configure API Base URL <br />
 

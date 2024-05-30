@@ -31,26 +31,21 @@ RTK Query: Handles data fetching and caching for the Pokemon API endpoints.
 
 
 <br />/src
+<br />  /navigation
+<br />     - AppNavigator.js
 <br />  /components
-<br />    - PokemonListScreen.tsx
-<br />    - PokemonDetailScreen.tsx
-<br />  /redux
-<br />    - store.ts
-<br />    - slices/
-<br />      - pokemonSlice.ts
+<br />    - PokemonListScreen.js
+<br />    - PokemonDetailScreen.js
+<br />  /store
+<br />    - store.js
 <br />  /services
- <br />   - pokemonApi.ts
+ <br />   - pokemonApi.js
 <br />  /utils
-<br />    - apiConfig.ts
+<br />    - apiConfig.js
 <br /> /tests
 <br />  /components
-  <br />  - PokemonListScreen.test.tsx
-  <br />  - PokemonDetailScreen.test.tsx
- <br /> /redux
-  <br />  - pokemonSlice.test.ts
- <br /> /services
- <br />   - pokemonApi.test.ts
-
+  <br />  - PokemonListScreen.test.js
+  
 
 **Instructions to Run the Application**
 **Clone the Repository** <br />
@@ -65,7 +60,7 @@ But in this project, the react testing library version has old libraries in olde
 <br />
 Configure API Base URL <br />
 
-Update the base URL in src/utils/apiConfig.ts if needed.
+Update the base URL in src/utils/apiConfig.js if needed
 
 
 

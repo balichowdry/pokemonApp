@@ -4,7 +4,7 @@ import PokemonList from '../src/component/PokemonList';
 import { useGetPokemonListQuery } from '../src/service/pokemonApi';
 
 // Mock the API hook
-jest.mock('../src/api/pokemonApi', () => ({
+jest.mock('../src/service/pokemonApi', () => ({
   useGetPokemonListQuery: jest.fn(),
 }));
 

@@ -1,7 +1,7 @@
 
 **Overview** <br />
-This React Native application retrieves a list of Pokemon from a given API and stores the list persistently. Users can click on a Pokemon to view its details. The application utilizes React Native Redux Toolkit and RTK Query for state management and data fetching. Unit tests are provided for one screen to ensure reliability and correctness for now to show the unit testing example only. 
-The app is designed with code separation, clean code principles, readability, and maintainability in mind. Still, because of time constraints, some improvements can be done like slicing of API for each screen.
+This React Native application retrieves a list of Pokemon from a given API and stores the list persistently. Users can click on a Pokemon to view its details. The application utilizes React Native Redux Toolkit and RTK Query for state management and data fetching. Unit tests are provided for both screens for now
+The app is designed with code separation, clean code principles, readability, and maintainability in mind. Due to time constraints, some improvements can be done like slicing of API for each screen.
 
 **Components**
 App Component <br />
@@ -64,6 +64,10 @@ But in this project, the react testing library version has old libraries in an o
 RUN TEST <br />
 **npm test** <br />
 <img width="771" alt="Screenshot 2024-05-30 at 12 14 45 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/80f68444-8f2a-4f88-b397-c85ca5aaf046">
+
+**SNAPSHOT TEST**
+<img width="1110" alt="Screenshot 2024-05-30 at 1 37 20 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/71fa35e1-ea02-4474-8d79-bef0492b7362">
+
 
 <br />
 Configure API Base URL <br />

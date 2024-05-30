@@ -66,6 +66,8 @@ But in this project, the react testing library version has old libraries in an o
 
 RUN TEST <br />
 **npm test** <br />
+
+
 <img width="771" alt="Screenshot 2024-05-30 at 12 14 45 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/80f68444-8f2a-4f88-b397-c85ca5aaf046">
 
 **SNAPSHOT TEST**
@@ -84,4 +86,5 @@ Update the base URL in src/utils/apiConfig.js if needed <br />
 ![Screenshot 2024-05-30 at 11 51 29 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/f5d09171-2ce0-4660-b7f0-2294371b2c4f)
 ![Screenshot 2024-05-30 at 10 18 39 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/01af5305-07d5-4a2e-b7a4-7f697a1013c1)
 
+<img width="757" alt="Screenshot 2024-05-30 at 2 26 41 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/3a25bd69-d8c5-4743-b2ad-9c2c95a11634">
 

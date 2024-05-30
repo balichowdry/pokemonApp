@@ -68,12 +68,11 @@ RUN TEST <br />
 <br />
 Configure API Base URL <br />
 
-Update the base URL in src/utils/apiConfig.js if needed
+Update the base URL in src/utils/apiConfig.js if needed <br />
 
+**iOS & Android Screenshot from running App in Simulator and Emulator respectively** <br />
+<img width="875" alt="Screenshot 2024-05-30 at 1 07 05 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/48534e92-f56d-4d69-a9b0-54d8038d39d2">
 
-
-![Screenshot 2024-05-30 at 10 16 50 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/9006f1ec-551a-4f90-9a81-61a5d4eb5d14)
-![Screenshot 2024-05-30 at 11 51 21 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/7caa2b6b-f9f6-4fb7-b68d-1194dc839ae0)
 
 ![Screenshot 2024-05-30 at 11 51 29 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/f5d09171-2ce0-4660-b7f0-2294371b2c4f)
 ![Screenshot 2024-05-30 at 10 18 39 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/01af5305-07d5-4a2e-b7a4-7f697a1013c1)

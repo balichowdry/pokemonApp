@@ -52,6 +52,23 @@ RTK Query: Handles data fetching and caching for the Pokemon API endpoints.
  <br />   - pokemonApi.test.ts
 
 
+**Instructions to Run the Application**
+**Clone the Repository** <br />
+
+Normally we use this 
+**npm install**
+
+But in this project, the react testing library version has old libraries in older version of react as well so we need to run the below command for legacy peer dependencies
+**npm install --legacy-peer-deps** <br />
+**expo start**
+
+<br />
+Configure API Base URL <br />
+
+Update the base URL in src/utils/apiConfig.ts if needed.
+
+
+
 ![Screenshot 2024-05-30 at 10 16 50 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/9006f1ec-551a-4f90-9a81-61a5d4eb5d14)
 
 

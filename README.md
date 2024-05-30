@@ -56,7 +56,10 @@ Normally we use this
 
 But in this project, the react testing library version has old libraries in an older version of react as well so we need to run the below command for legacy peer dependencies
 **npm install --legacy-peer-deps** <br />
-**npx expo start** // Because I have the latest expo CLI which supports NPX, Install Expo XLI if needed
+**npm expo start** // Because I have the latest expo CLI which supports NPX, Install Expo CLI if needed
+
+** Press a for Android ** <br />
+** Press i for iOS ** <br />
 
 <br />
 Configure API Base URL <br />
@@ -66,7 +69,9 @@ Update the base URL in src/utils/apiConfig.js if needed
 
 
 ![Screenshot 2024-05-30 at 10 16 50 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/9006f1ec-551a-4f90-9a81-61a5d4eb5d14)
+![Screenshot 2024-05-30 at 11 51 21 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/7caa2b6b-f9f6-4fb7-b68d-1194dc839ae0)
 
-
-
+![Screenshot 2024-05-30 at 11 51 29 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/f5d09171-2ce0-4660-b7f0-2294371b2c4f)
 ![Screenshot 2024-05-30 at 10 18 39 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/01af5305-07d5-4a2e-b7a4-7f697a1013c1)
+
+

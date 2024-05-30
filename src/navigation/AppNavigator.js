@@ -10,11 +10,15 @@ const AppNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name='PokemonList' component={PokemonListScreen} />
+        <Stack.Screen 
+        name='PokemonList' 
+        component={PokemonListScreen}
+        options={({ route }) => ({ headerStyle: {backgroundColor: '#7393B3'} })}
+         />
         <Stack.Screen
           name='PokemonDetail'
           component={PokemonDetailScreen}
-          options={({ route }) => ({ title: route.params.name })}
+          options={({ route }) => ({ title: route.params.name, headerStyle: {backgroundColor: '#7393B3'} })}
         />
       </Stack.Navigator>
     </NavigationContainer>

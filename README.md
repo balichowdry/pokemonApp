@@ -28,25 +28,25 @@ GET Pokemon Details: https://pokeapi.co/api/v2/pokemon/{id}/
 
 
 <br />/src
-< br / >  /components
-< br / >    - PokemonListScreen.tsx
-< br / >    - PokemonDetailScreen.tsx
-< br / >  /redux
-< br / >    - store.ts
-< br / >    - slices/
-< br / >      - pokemonSlice.ts
-< br / >  /services
- < br / >   - pokemonApi.ts
-< br / >  /utils
-< br / >    - apiConfig.ts
-< br / >/tests
-< br / >  /components
-  < br / >  - PokemonListScreen.test.tsx
-  < br / >  - PokemonDetailScreen.test.tsx
- < br / > /redux
-  < br / >  - pokemonSlice.test.ts
- < br / > /services
- < br / >   - pokemonApi.test.ts
+<br />  /components
+<br />    - PokemonListScreen.tsx
+<br />    - PokemonDetailScreen.tsx
+<br />  /redux
+<br />    - store.ts
+<br />    - slices/
+<br />      - pokemonSlice.ts
+<br />  /services
+ <br />   - pokemonApi.ts
+<br />  /utils
+<br />    - apiConfig.ts
+<br /> /tests
+<br />  /components
+  <br />  - PokemonListScreen.test.tsx
+  <br />  - PokemonDetailScreen.test.tsx
+ <br /> /redux
+  <br />  - pokemonSlice.test.ts
+ <br /> /services
+ <br />   - pokemonApi.test.ts
 
 
 

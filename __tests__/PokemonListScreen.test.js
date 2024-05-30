@@ -17,18 +17,20 @@ const mockData = {
 describe('PokemonList', () => {
   it('displays loading state correctly', () => {
     useGetPokemonListQuery.mockReturnValue({ isLoading: true });
-    const { getByText } = render(
+    const { getByText,toJSON } = render(
       <PokemonList navigation={{ navigate: mockNavigate }} />
     );
     expect(getByText('Loading...')).toBeTruthy();
+  expect(toJSON()).toMatchSnapshot()
   });
 
   it('displays error state correctly', () => {
     useGetPokemonListQuery.mockReturnValue({ error: true, isLoading: false });
-    const { getByText } = render(
+    const { getByText,toJSON } = render(
       <PokemonList navigation={{ navigate: mockNavigate }} />
     );
     expect(getByText('Error loading data')).toBeTruthy();
+    expect(toJSON()).toMatchSnapshot()
   });
 
   it('renders list of pokemons correctly', () => {
@@ -36,11 +38,12 @@ describe('PokemonList', () => {
       data: mockData,
       isLoading: false,
     });
-    const { getByText } = render(
+    const { getByText,toJSON } = render(
       <PokemonList navigation={{ navigate: mockNavigate }} />
     );
     expect(getByText('Bulbasaur')).toBeTruthy();
     expect(getByText('Charmander')).toBeTruthy();
+  expect(toJSON()).toMatchSnapshot()
   });
 
   it('navigates on press', () => {
@@ -48,12 +51,13 @@ describe('PokemonList', () => {
       data: mockData,
       isLoading: false,
     });
-    const { getByText } = render(
+    const { getByText,toJSON } = render(
       <PokemonList navigation={{ navigate: mockNavigate }} />
     );
     fireEvent.press(getByText('Bulbasaur'));
     expect(mockNavigate).toHaveBeenCalledWith('PokemonDetail', {
       name: 'Bulbasaur',
     });
+    expect(toJSON()).toMatchSnapshot()
   });
 });

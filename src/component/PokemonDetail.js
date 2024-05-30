@@ -13,10 +13,8 @@ const PokemonDetail = ({ route }) => {
   if (isLoading) return <Text>Loading...</Text>;
   if (error) return <Text>Error loading data</Text>;
 
-  console.log('detailed===>', data?.sprites);
-
   return (
-    <View style={styles.container}>
+    <View style={styles.container}  testID={route.params?.testID}>
       <Image
         source={{ uri: data?.sprites?.back_default }}
         style={{ resizeMode: 'contain', height: 250 }}

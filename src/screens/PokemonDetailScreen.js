@@ -5,7 +5,7 @@ import PokemonDetail from '../component/PokemonDetail';
 const PokemonDetailScreen = ({ route }) => {
   return (
     <SafeAreaView>
-      <PokemonDetail route={route} />
+      <PokemonDetail route={route} testID="PokemonDetail" />
     </SafeAreaView>
   );
 };

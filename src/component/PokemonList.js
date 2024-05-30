@@ -25,9 +25,7 @@ const PokemonList = ({ navigation }) => {
             navigation.navigate('PokemonDetail', { name: item?.name })
           }
           style={styles.rowView}
-        >
-          <Image source={{ uri: item?.url }} style={{ resizeMode: 'cover' }} /> //Images not available in source screen
-          {console.log('detailed===>', item)}
+        >          
           <Text style={styles.detailText}>{item?.name}</Text>
         </TouchableOpacity>
       )}
@@ -41,11 +39,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     borderColor: '#666',
-  },
-  headerText: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#000',
   },
   detailText: {
     fontSize: 22,

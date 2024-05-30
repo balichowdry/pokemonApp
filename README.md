@@ -1,6 +1,6 @@
 
 **Overview**
-This React Native application retrieves a list of Pokemon from a given API and stores the list persistently. Users can click on a Pokemon to view its details. The application utilizes React Native Redux Toolkit and RTK Query for state management and data fetching. Unit tests are provided for both screens to ensure reliability and correctness. The app is designed with code separation, clean code principles, readability, and maintainability in mind.
+This React Native application retrieves a list of Pokemon from a given API and stores the list persistently. Users can click on a Pokemon to view its details. The application utilizes React Native Redux Toolkit and RTK Query for state management and data fetching. Unit tests are provided for both screens to ensure reliability and correctness. The app is designed with code separation, clean code principles, readability, and maintainability in mind but because of time constraint there are some improvement can be done
 
 **Components**
 App Component

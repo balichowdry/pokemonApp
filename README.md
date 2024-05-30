@@ -54,9 +54,9 @@ RTK Query: Handles data fetching and caching for the Pokemon API endpoints.
 Normally we use this 
 **npm install**
 
-But in this project, the react testing library version has old libraries in older version of react as well so we need to run the below command for legacy peer dependencies
+But in this project, the react testing library version has old libraries in an older version of react as well so we need to run the below command for legacy peer dependencies
 **npm install --legacy-peer-deps** <br />
-**npx expo start** // Because I have latest expo cli which support NPX
+**npx expo start** // Because I have the latest expo CLI which supports NPX, Install Expo XLI if needed
 
 <br />
 Configure API Base URL <br />

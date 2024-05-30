@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "pokemonApp",
+    "slug": "pokemonApp",
+    "version": "1.0.0",
+    "entryPoint": "./index.js"
+  },
+  "name": "pokemonApp"
+}

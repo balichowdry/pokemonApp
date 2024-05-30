@@ -27,7 +27,7 @@ GET List of Pokemon: https://pokeapi.co/api/v2/pokemon/
 GET Pokemon Details: https://pokeapi.co/api/v2/pokemon/{id}/
 
 
-< br / >/src
+<br />/src
 < br / >  /components
 < br / >    - PokemonListScreen.tsx
 < br / >    - PokemonDetailScreen.tsx

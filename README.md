@@ -35,6 +35,9 @@ RTK Query: Handles data fetching and caching for the Pokemon API endpoints.
 <br />  /navigation
 <br />     - AppNavigator.js
 <br />  /components
+<br />    - PokemonList.js
+<br />    - PokemonDetail.js
+<br />  /screens
 <br />    - PokemonListScreen.js
 <br />    - PokemonDetailScreen.js
 <br />  /store
@@ -43,9 +46,9 @@ RTK Query: Handles data fetching and caching for the Pokemon API endpoints.
  <br />   - pokemonApi.js
 <br />  /utils
 <br />    - apiConfig.js
-<br /> /tests
-<br />  /components
+<br /> /__tests__
   <br />  - PokemonListScreen.test.js
+  <br />  - PokemonDetailScreen.test.js
   
 
 **Instructions to Run the Application**

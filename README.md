@@ -56,7 +56,7 @@ Normally we use this
 
 But in this project, the react testing library version has old libraries in older version of react as well so we need to run the below command for legacy peer dependencies
 **npm install --legacy-peer-deps** <br />
-**expo start**
+**npx expo start** // Because I have latest expo cli which support NPX
 
 <br />
 Configure API Base URL <br />

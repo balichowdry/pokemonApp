@@ -26,7 +26,7 @@ const PokemonList = ({ navigation }) => {
           }
           style={styles.rowView}
         >
-          <Image source={{ uri: item?.url }} style={{ resizeMode: 'cover' }} />
+          <Image source={{ uri: item?.url }} style={{ resizeMode: 'cover' }} /> //Images not available in source screen
           {console.log('detailed===>', item)}
           <Text style={styles.detailText}>{item?.name}</Text>
         </TouchableOpacity>

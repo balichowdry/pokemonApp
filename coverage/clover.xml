@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1717061155768" clover="3.2.0">
+  <project timestamp="1717061155769" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5" elements="20" coveredelements="20" complexity="0" loc="11" ncloc="11" packages="2" files="2" classes="2"/>
+    <package name="component">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="PokemonList.js" path="/Users/bilalsattar/Downloads/pokemonApp/src/component/PokemonList.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PokemonDetailScreen.js" path="/Users/bilalsattar/Downloads/pokemonApp/src/screens/PokemonDetailScreen.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

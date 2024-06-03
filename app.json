@@ -3,7 +3,12 @@
     "name": "pokemonApp",
     "slug": "pokemonApp",
     "version": "1.0.0",
-    "entryPoint": "./index.js"
+    "entryPoint": "./index.js",
+    "extra": {
+      "eas": {
+        "projectId": "a4f65ee6-35fd-44b0-96fb-31934002bd8f"
+      }
+    }
   },
   "name": "pokemonApp"
 }

@@ -90,4 +90,6 @@ Update the base URL in src/utils/apiConfig.js if needed <br />
 ![Screenshot 2024-05-30 at 10 18 39 AM](https://github.com/balichowdry/pokemonApp/assets/3157273/01af5305-07d5-4a2e-b7a4-7f697a1013c1)
 
 <img width="757" alt="Screenshot 2024-05-30 at 2 26 41 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/3a25bd69-d8c5-4743-b2ad-9c2c95a11634">
+<img width="1414" alt="Screenshot 2024-06-03 at 2 47 11 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/f9091978-ecd5-4561-a4be-2fdeb6367897">
+<img width="1208" alt="Screenshot 2024-06-03 at 2 46 53 PM" src="https://github.com/balichowdry/pokemonApp/assets/3157273/b5a95e7e-3928-4449-bea2-7933a158e52d">
 
